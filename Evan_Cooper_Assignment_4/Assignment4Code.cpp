@@ -1,3 +1,32 @@
+/*
+ * ==============================================================================
+ * Program Name: EECS 348 Assignment 4 - Object-Oriented Sudoku Solver
+ * Author: $Evan Cooper
+ * Creation Date: October 10, 2026
+ * 
+ * Description:
+ * An object-oriented C++ program that solves 9x9 Sudoku puzzles using a 
+ * depth-first search (DFS) algorithm with backtracking. It encapsulates board 
+ * logic and solving routines into classes, processes input puzzle files where 
+ * blank cells are represented by underscores ('_'), and prints the file name, 
+ * initial puzzle configuration, and all valid solutions.
+ * 
+ * Inputs:
+ * - Text files containing 9x9 Sudoku puzzles (e.g., puzzle1.txt, puzzle2.txt, 
+ *   puzzle3.txt, puzzle4.txt, puzzle5.txt)
+ * 
+ * Output:
+ * - Puzzle file name, initial puzzle grid printout, and all discovered solutions 
+ *   (or "No solution found" if no valid grid configuration exists).
+ * 
+ * Collaborators:
+ * - None (or list the names of any classmates you worked with)
+ * 
+ * Other Sources for the Code:
+ * - ChatGPT and Gemini (GenAI tools utilized for code generation structure and 
+ *   analysis as permitted by the assignment instructions)
+ * ==============================================================================
+ */
 #include <iostream> // Include standard input-output stream library for console logging
 #include <fstream>  // Include file stream library for parsing puzzle files
 #include <vector>   // Include vector container library for dynamic arrays
